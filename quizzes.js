@@ -10,7 +10,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "106506": {
     course: "العلوم والحياة | الصف الرابع",
@@ -18,7 +18,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "106400": {
     course: "العلوم والحياة | الصف الرابع",
@@ -26,7 +26,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "171572": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 1",
@@ -34,7 +34,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "171580": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 2",
@@ -42,7 +42,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "171311": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 3",
@@ -50,7 +50,7 @@ window.QUIZZES = Object.freeze({
     deadline: "نهاية يوم الخميس",
     duration: "30 دقيقة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "261566": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 1",
@@ -58,7 +58,7 @@ window.QUIZZES = Object.freeze({
     deadline: "الخميس 8/10/2026\nالساعة 11:55 مساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "261605": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 2",
@@ -66,12 +66,36 @@ window.QUIZZES = Object.freeze({
     deadline: "الخميس 8/10/2026\nالساعة 11:55 مساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "261598": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 3",
     title: "اختبار الأسبوع الثالث",
     deadline: "الخميس 8/10/2026\nالساعة 11:55 مساءً",
+    duration: "غير محدد بمدة",
+    attempts: "محاولة واحدة",
+    active: false
+  },
+  "535874": {
+    course: "العلوم والحياة | الصف الرابع | الشعبة 1",
+    title: "اختبار الأسبوع الخامس | الجهاز الهضمي",
+    deadline: "الخميس 22/10/2026\nالساعة 11:59 مساءً",
+    duration: "غير محدد بمدة",
+    attempts: "محاولة واحدة",
+    active: true
+  },
+  "536136": {
+    course: "العلوم والحياة | الصف الرابع | الشعبة 2",
+    title: "اختبار الأسبوع الخامس | الجهاز الهضمي",
+    deadline: "الخميس 22/10/2026\nالساعة 11:59 مساءً",
+    duration: "غير محدد بمدة",
+    attempts: "محاولة واحدة",
+    active: true
+  },
+  "536191": {
+    course: "العلوم والحياة | الصف الرابع | الشعبة 3",
+    title: "اختبار الأسبوع الخامس | الجهاز الهضمي",
+    deadline: "الخميس 22/10/2026\nالساعة 11:59 مساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
     active: true
