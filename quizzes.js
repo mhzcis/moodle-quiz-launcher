@@ -106,7 +106,7 @@ window.QUIZZES = Object.freeze({
     deadline: "الخميس 29/10/2026\nالساعة 11:59 مساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "630191": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 2",
@@ -114,12 +114,20 @@ window.QUIZZES = Object.freeze({
     deadline: "الخميس 29/10/2026\nالساعة 11:59 مساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
-    active: true
+    active: false
   },
   "624634": {
     course: "العلوم والحياة | الصف الرابع | الشعبة 3",
     title: "اختبار الأسبوع السادس | صحة الجهاز الهضمي وسلامته",
     deadline: "الخميس 29/10/2026\nالساعة 11:59 مساءً",
+    duration: "غير محدد بمدة",
+    attempts: "محاولة واحدة",
+    active: false
+  },
+  "573339": {
+    course: "العلوم والحياة | الصف الرابع",
+    title: "الاختبار الشهري المركزي",
+    deadline: "الخميس 12/11/2026\nمساءً",
     duration: "غير محدد بمدة",
     attempts: "محاولة واحدة",
     active: true
