@@ -34,7 +34,8 @@
     return;
   }
 
-  const browserUrl = `${CONFIG.moodleBaseUrl}/mod/quiz/view.php?id=${encodeURIComponent(quizId)}`;
+  const activityPath = quiz.type === "url" ? "url" : "quiz";
+  const browserUrl = `${CONFIG.moodleBaseUrl}/mod/${activityPath}/view.php?id=${encodeURIComponent(quizId)}`;
   const redirectUrl = encodeURIComponent(browserUrl);
   const moodleUrl = `moodlemobile://${CONFIG.moodleBaseUrl.replace(/^https?:\/\//, "")}?redirect=${redirectUrl}`;
   const androidIntentUrl = `intent://${CONFIG.moodleBaseUrl.replace(/^https?:\/\//, "")}?redirect=${redirectUrl}#Intent;scheme=moodlemobile;package=${CONFIG.androidPackageName};S.browser_fallback_url=${encodeURIComponent(browserUrl)};end`;
